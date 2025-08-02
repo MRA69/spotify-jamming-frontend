@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import coverArt from "../../images/coverart.jpeg";
 import styles from "./Track.module.css";
 
