@@ -24,7 +24,7 @@ const Spotify = {
       // Redirect to Spotify authorization
       const scopes =
         "playlist-modify-public playlist-modify-private user-read-private";
-      const accessUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&scope=${scopes}&redirect_uri=https://bobbyjgithub.github.io/spotilists/`;
+      const accessUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&scope=${encodeURIComponent(scopes)}&redirect_uri=${encodeURIComponent(redirectUri)}`;
       window.location = accessUrl;
     }
   },
