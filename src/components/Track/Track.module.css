@@ -1,55 +1,47 @@
-.track {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 5px solid #191414;
-  width: fit-content;
-  border-radius: 20px;
-  overflow: hidden;
+.Track {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #191414;
+    width: fit-content;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .track:hover {
-  border: 5px solid #1db954;
+    border: 5px solid #1db954;
 }
 
 .inPlaylist:hover {
-  border: 5px solid #b91d1d;
+    border: 5px solid #b91d1d;
 }
 
 .img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 
 .title {
-  font-size: clamp(1rem, 2.5vw, 1.8rem);
-  font-weight: 700;
-  margin: 5px 5px 5px 5px;
-  line-height: 1.2;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  max-width: 100%;
+    font-size: clamp(1rem, 2.5vw, 1.8rem);
+    font-weight: 700;
+    margin: 5px;
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    max-width: 100%;
 }
 
-.artist {
-  display: flex;
-  justify-self: center;
-  width: fit-content;
-  margin: 0 8px 5px 8px;
-  font-size: clamp(0.5rem, 2.5vw, 1rem);
-}
-
-.album {
-  display: flex;
-  justify-self: center;
-  width: fit-content;
-  margin: 0 8px 5px 8px;
-  font-size: clamp(0.5rem, 2.5vw, 1rem);
+.artist, .album {
+    display: flex;
+    justify-self: center;
+    width: fit-content;
+    margin: 0px 8px 5px 8px;
+    font-size: clamp(0.5rem, 2.5vw, 1rem);
 }
