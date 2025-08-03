@@ -1,43 +1,43 @@
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .searchBar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0;
-  padding: 20px 0;
-  border: 1px solid #191414;
-  width: 40rem;
-  border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px 0;
+    border: 1px solid #191414;
+    width: 40rem;
+    border-radius: 50px;
 }
 
 .input {
-  border: none;
-  background: none;
-  outline: none;
-  padding: 0.5rem 2rem;
-  font-size: 1.5rem;
-  text-align: left;
-  width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    text-align: left;
+    width: 100%;
 }
 
 .input::placeholder {
-  text-align: left;
+    text-align: left;
 }
 
 .button {
-  border: none;
-  background: none;
-  outline: none;
-  padding: 0.5rem 1rem;
-  font-size: 1.5rem;
-  cursor: pointer;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .searchIcon {
-  color: #191414;
+    color: #191414;
 }
